@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TERRATECH</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo1.png" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap">
+
+        <!-- Logo -->
+        <a href="index.html" class="d-flex align-items-center" style="height: 50px;">
+            <img src="img/logo.png" alt="Terra Tech Logo" style="height: 70px; width: auto; display: block;">
+        </a>
+
+        <!-- Contact Info -->
+        <div class="d-flex align-items-center flex-wrap text-nowrap ms-auto">
+            <small class="ms-4"><i class="fa fa-map-marker-alt me-2"></i>9 Zone:55, Building:533, Street:280, Fereej AI Murra, Doha, Qatar</small>
+            <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@terratechqa.com</small>
+            <small class="ms-4"><i class="fa fa-phone-alt me-2"></i>+974 7733 1172</small>
+        </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand d-lg-none" style="height: 45px;">
+                    <img src="img/logo.png" alt="Terra Tech Logo" style="height: 40px; width: auto;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="feature.html" class="nav-item nav-link">Features</a>
+                        <!--
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="feature.html" class="dropdown-item active">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>-->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="mailto:info@terratechqa.com?subject=Request%20for%20Quote&body=Hi%2C%20I%20would%20like%20to%20get%20a%20quote%20for..." class="btn btn-primary py-2 px-3">Get A Quote</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header pt-5 mb-6 wow fadeIn" data-wow-delay="0.1s" style="background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)), url(img/carousel-3.jpg); background-size: cover; background-position: center;">
+        <div class="container text-center pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white p-5">
+                        <h1 class="display-6 text-uppercase mb-3 animated slideInDown">Features</h1>
+                        <nav aria-label="breadcrumb animated slideInDown">
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <!--<li class="breadcrumb-item"><a href="#">Pages</a></li>-->
+                                <li class="breadcrumb-item" aria-current="page">Features</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container pt-4">
+            <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-check-double fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase mb-3">EXPERT TECHNICAL TEAM</h5>
+                            <p>Our certified technicians bring years of experience, delivering precision in every service — from installation to troubleshooting.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-check-double fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase">FAST & RESPONSIVE SUPPORT</h5>
+                            <p>We prioritize quick turnaround times with real-time response to client requests, minimizing downtime and ensuring continuity.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-check-double fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase">CONSISTENT PERFORMANCE</h5>
+                            <p>Every project meets industry standards with rigorous checks, ensuring our solutions work seamlessly and consistently.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-check-double fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase">CLIENT-CENTRIC APPROACH</h5>
+                            <p>We build long-term relationships by listening, adapting, and delivering beyond expectations — your satisfaction is our goal.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Features Start -->
+    <div class="pb-6">
+        <div class="container-fluid feature mt-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-0 justify-content-end">
+                    <div class="col-lg-6 pt-5">
+                        <div class="mt-5">
+                            <h1 class="display-6 text-white text-uppercase mb-4 wow fadeIn" data-wow-delay="0.3s">Why Choose Terra Tech For Your Projects</h1>
+                            <p class="text-light mb-4 wow fadeIn" data-wow-delay="0.4s">At Terra Tech, we combine deep technical expertise with a genuine commitment to client success. From UPS systems and generators to solar solutions and data centre monitoring, our certified team ensures every project is delivered on time, on spec, and built to last.</p>
+                            <div class="row g-4 pt-2 mb-4">
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="flex-column text-center border border-5 border-primary p-5">
+                                        <h1 class="text-white" data-toggle="counter-up">100</h1>
+                                        <p class="text-white text-uppercase mb-0">Satisfied Clients</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="flex-column text-center border border-5 border-primary p-5">
+                                        <h1 class="text-white" data-toggle="counter-up">95</h1>
+                                        <p class="text-white text-uppercase mb-0">Complete Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-primary border-bottom-0 p-5">
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.6s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white text-uppercase">Experience</span>
+                                        <span class="text-white">90%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white text-uppercase">Work Done</span>
+                                        <span class="text-white">95%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    
+    <!-- Newsletter Start --><!--
+    <div class="container-fluid newsletter mt-6 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="bg-white p-5 mb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="display-6 text-uppercase mb-4">Newsletter</h1>
+                        <div class="d-flex">
+                            <i class="far fa-envelope-open fa-3x text-primary me-4"></i>
+                            <p class="fs-5 fst-italic mb-0">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore lorem ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control border-0 bg-light" id="mail" placeholder="Your Email">
+                            <label for="mail">Your Email</label>
+                        </div>
+                        <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pt-4 pb-4">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-brand mb-3">
+                        <img src="img/logo.png" alt="Terra Tech Logo">
+                    </div>
+                    <p class="footer-brand"><span style="color:#adb5bd;font-size:14px;line-height:1.7;">Qatar’s trusted partner for electromechanical solutions — delivering precision, performance, and peace of mind.</span></p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/+97477331172" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="footer-heading text-uppercase">Contact Us</h6>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon"><i class="fa fa-map-marker-alt"></i></div>
+                        <div class="footer-contact-text">
+                            <span>Address</span>
+                            <span>Zone:55, Building:533, Street:280,<br>Fereej Al Murra, Doha, Qatar</span>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon"><i class="fa fa-phone-alt"></i></div>
+                        <div class="footer-contact-text">
+                            <span>Phone</span>
+                            <span>+974 7733 1172</span>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+                        <div class="footer-contact-text">
+                            <span>Email</span>
+                            <span>info@terratechqa.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="footer-heading text-uppercase">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service.html">Our Services</a></li>
+                        <li><a href="feature.html">Features</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    <h6 class="footer-heading text-uppercase mt-4">Business Hours</h6>
+                    <div class="footer-hours-item">
+                        <span class="day">Sat – Thu</span>
+                        <span class="time">09:00 am – 06:00 pm</span>
+                    </div>
+                    <div class="footer-hours-item">
+                        <span class="day">Friday</span>
+                        <span class="time closed">Closed</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="footer-heading text-uppercase">Gallery</h6>
+                    <div class="footer-gallery">
+                        <a href="img/service-1.jpg"><img src="img/service-1.jpg" alt="Service 1"></a>
+                        <a href="img/service-2.jpg"><img src="img/service-2.jpg" alt="Service 2"></a>
+                        <a href="img/service-3.jpg"><img src="img/service-3.jpg" alt="Service 3"></a>
+                        <a href="img/service-4.jpg"><img src="img/service-4.jpg" alt="Service 4"></a>
+                        <a href="img/service-5.jpg"><img src="img/service-5.jpg" alt="Service 5"></a>
+                        <a href="img/service-6.jpg"><img src="img/service-6.jpg" alt="Service 6"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="copyright py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        &copy; <a href="index.html">Terra Tech Trading & Contracting W.L.L.</a> All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <span style="color:#555;">Doha, Qatar &nbsp;|&nbsp; +974 7733 1172</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <a href="https://wa.me/+97477331172" target="_blank"
+   style="position: fixed; bottom: 80px; right: 20px; z-index: 9999;">
+   <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" 
+        alt="Chat on WhatsApp" style="width: 48px; height: 48px;">
+    </a>
+    <!-- Mobile Contact Bar -->
+    <div class="mobile-contact-bar d-lg-none">
+        <a href="tel:+97477331172">
+            <i class="fa fa-phone-alt"></i>
+            <span>Call</span>
+        </a>
+        <a href="mailto:info@terratechqa.com">
+            <i class="fa fa-envelope"></i>
+            <span>Email</span>
+        </a>
+        <a href="https://wa.me/+97477331172" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+        <a href="contact.html">
+            <i class="fa fa-map-marker-alt"></i>
+            <span>Location</span>
+        </a>
+    </div>
+
+</body>
+
+</html>
