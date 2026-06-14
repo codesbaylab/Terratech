@@ -656,6 +656,26 @@ section[id], div[id] {
 
     /* Form card padding */
     .appoinment .bg-white { padding: 2rem !important; }
+
+    /* Mobile navbar — dark background when expanded */
+    .navbar-collapse {
+        background: #0f1923;
+        margin: 0 -12px;
+        padding: 10px 20px 16px;
+        border-top: 3px solid #06A3DA;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: #adb5bd !important;
+        border-bottom: 1px solid rgba(255,255,255,.06);
+        padding: 12px 0 !important;
+    }
+
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link.active {
+        color: #06A3DA !important;
+    }
 }
 
 /* Small tablet / large phone landscape */
