@@ -657,25 +657,43 @@ section[id], div[id] {
     /* Form card padding */
     .appoinment .bg-white { padding: 2rem !important; }
 
-    /* Mobile navbar — dark background when expanded */
+    /* Mobile navbar — dark entire bar */
+    .container-fluid.sticky-top,
+    .navbar.bg-white {
+        background-color: #0f1923 !important;
+        border-bottom: 2px solid #06A3DA;
+    }
+
+    /* Hamburger icon white on dark bg */
+    .navbar-toggler {
+        border-color: rgba(6,163,218,.5) !important;
+    }
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    /* Logo stays visible */
+    .navbar-brand img {
+        filter: brightness(0) invert(1);
+    }
+
+    /* Expanded dropdown */
     .navbar-collapse {
         background: #0f1923 !important;
-        margin: 0 -12px;
-        padding: 10px 20px 16px !important;
-        border-top: 3px solid #06A3DA;
-        border-radius: 0 0 8px 8px;
-        box-shadow: 0 8px 24px rgba(0,0,0,.3);
+        padding: 8px 0 16px !important;
+        border-top: 1px solid rgba(6,163,218,.3);
     }
 
     .navbar .navbar-nav .nav-link {
         color: #adb5bd !important;
         border-bottom: 1px solid rgba(255,255,255,.06);
-        padding: 12px 0 !important;
+        padding: 12px 4px !important;
     }
 
     .navbar .navbar-nav .nav-link:hover,
     .navbar .navbar-nav .nav-link.active {
         color: #06A3DA !important;
+        background: transparent !important;
     }
 }
 
