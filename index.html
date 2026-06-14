@@ -3,13 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terra Tech | Under Maintenance</title>
-    <meta name="description" content="Terra Tech Trading & Contracting W.L.L. website is currently under maintenance. We'll be back shortly.">
+    <title>404 — Page Not Found</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="icon" href="img/logo1.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -19,206 +16,43 @@
             color: #fff;
             min-height: 100vh;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 2rem;
-            overflow: hidden;
-        }
-
-        /* Animated background */
-        body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background:
-                radial-gradient(ellipse at 20% 50%, rgba(6,163,218,.15) 0%, transparent 60%),
-                radial-gradient(ellipse at 80% 20%, rgba(6,163,218,.1) 0%, transparent 50%);
-            z-index: 0;
-            animation: pulse 6s ease-in-out infinite alternate;
-        }
-
-        @keyframes pulse {
-            from { opacity: .6; }
-            to   { opacity: 1; }
-        }
-
-        .card {
-            position: relative;
-            z-index: 1;
-            background: rgba(255,255,255,.04);
-            border: 1px solid rgba(6,163,218,.25);
-            border-radius: 20px;
-            padding: 3.5rem 3rem;
-            max-width: 560px;
-            width: 100%;
             text-align: center;
-            backdrop-filter: blur(12px);
-            box-shadow: 0 0 60px rgba(6,163,218,.12), 0 24px 48px rgba(0,0,0,.4);
         }
 
-        .logo {
-            height: 64px;
-            width: auto;
-            margin-bottom: 2rem;
-            filter: brightness(0) invert(1);
-        }
+        .wrap { max-width: 480px; }
 
-        .gear-wrap {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            margin-bottom: 1.75rem;
+        .num {
+            font-size: 8rem;
+            font-weight: 700;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 2px #06A3DA;
+            letter-spacing: -4px;
+            margin-bottom: .5rem;
         }
-
-        .gear {
-            width: 48px;
-            height: 48px;
-            border: 4px solid #06A3DA;
-            border-radius: 50%;
-            position: relative;
-            animation: spin 4s linear infinite;
-        }
-
-        .gear::before {
-            content: '';
-            position: absolute;
-            inset: 6px;
-            background: #06A3DA;
-            border-radius: 50%;
-        }
-
-        .gear.gear-sm {
-            width: 32px;
-            height: 32px;
-            border-width: 3px;
-            animation-direction: reverse;
-            animation-duration: 2.5s;
-        }
-
-        @keyframes spin { to { transform: rotate(360deg); } }
 
         h1 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            letter-spacing: .5px;
-            margin-bottom: .75rem;
+            font-size: 1.4rem;
+            font-weight: 600;
             color: #fff;
+            margin-bottom: .75rem;
         }
-
-        .accent { color: #06A3DA; }
 
         p {
-            color: #8fa3b8;
-            font-size: .95rem;
+            color: #6b8099;
+            font-size: .9rem;
             line-height: 1.7;
-            margin-bottom: 2rem;
-        }
-
-        .divider {
-            width: 50px;
-            height: 3px;
-            background: #06A3DA;
-            border-radius: 2px;
-            margin: 0 auto 2rem;
-        }
-
-        .contact-row {
-            display: flex;
-            flex-direction: column;
-            gap: .75rem;
-            margin-bottom: 2rem;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: .6rem;
-            color: #adb5bd;
-            font-size: .875rem;
-            text-decoration: none;
-            transition: color .2s;
-        }
-
-        .contact-item:hover { color: #06A3DA; }
-
-        .contact-item svg {
-            width: 16px;
-            height: 16px;
-            fill: #06A3DA;
-            flex-shrink: 0;
-        }
-
-        .badge {
-            display: inline-block;
-            background: rgba(6,163,218,.12);
-            border: 1px solid rgba(6,163,218,.3);
-            color: #06A3DA;
-            font-size: .75rem;
-            font-weight: 600;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            padding: .35rem 1rem;
-            border-radius: 50px;
-            margin-bottom: 1.5rem;
-        }
-
-        footer {
-            position: relative;
-            z-index: 1;
-            margin-top: 2rem;
-            color: #3d5166;
-            font-size: .78rem;
-        }
-
-        @media (max-width: 480px) {
-            .card { padding: 2.5rem 1.5rem; }
-            h1 { font-size: 1.4rem; }
         }
     </style>
 </head>
 <body>
-
-    <div class="card">
-        <img src="img/logo.png" alt="Terra Tech Logo" class="logo">
-
-        <div class="gear-wrap">
-            <div class="gear gear-sm"></div>
-            <div class="gear"></div>
-            <div class="gear gear-sm"></div>
-        </div>
-
-        <div class="badge">Under Maintenance</div>
-
-        <h1>We'll Be Back <span class="accent">Shortly</span></h1>
-        <div class="divider"></div>
-        <p>Our website is currently undergoing scheduled maintenance and improvements. We apologise for the inconvenience. Please contact us directly in the meantime.</p>
-
-        <div class="contact-row">
-            <a class="contact-item" href="tel:+97477331172">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
-                +974 7733 1172
-            </a>
-            <a class="contact-item" href="mailto:info@terratechqa.com">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                info@terratechqa.com
-            </a>
-            <a class="contact-item" href="https://wa.me/97477331172" target="_blank">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                WhatsApp Us
-            </a>
-        </div>
-
-        <p style="font-size:.8rem; margin-bottom:0; color:#3d5166;">
-            Zone 55, Building 533, Street 280, Fereej Al Murra, Doha, Qatar
-        </p>
+    <div class="wrap">
+        <div class="num">404</div>
+        <h1>Page Not Found</h1>
+        <p>The page you're looking for doesn't exist or has been moved.</p>
     </div>
-
-    <footer>
-        &copy; 2025 Terra Tech Trading & Contracting W.L.L. &nbsp;|&nbsp; Doha, Qatar
-    </footer>
-
 </body>
 </html>
